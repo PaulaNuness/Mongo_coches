@@ -1,0 +1,29 @@
+
+
+.fondo{
+    -fx-background-image: url("../imagem/coche.jpg");
+    -fx-background-size: cover;
+}
+.letras{
+    -fx-font-size: 20px;
+    -fx-font-style: italic;
+    -fx-font-family: Arial;
+    -fx-effect: innershadow(gaussian, #000000, 10, 0.5, 2, 2);
+    -fx-font-weight: bold;
+
+
+}
+
+.botton{
+    -fx-background-color:#BDBDBD;
+    -fx-background-radius: 20 20 20 20;
+    -fx-border-radius: 20 20 20 20;
+    -fx-effect: dropshadow( gaussian, rgba(0,0,0,0.8), 10, 0.5, 0, 0 );
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+}
+.xBotton:hover {
+    -fx-background-color: #40BEB6;
+}

@@ -1,0 +1,22 @@
+db.coche.insertMany(
+[
+  {
+    "matricula" : "1111BBB",
+    "marca" : "Ford",
+    "modelo" : "CMax",
+    "tipo" : "SUB"
+  },
+  {
+    "matricula" : "2222CCC",
+    "marca" : "Renault",
+    "modelo" : "Scenic",
+    "tipo" : "Monovolumen"
+  },
+  {
+    "matricula" : "3333DDD",
+    "marca" : "Kia",
+    "modelo" : "Niro",
+    "tipo" : "Hibrido"
+  }
+]
+)
